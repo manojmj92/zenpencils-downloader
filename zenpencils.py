@@ -28,7 +28,7 @@ for url_range in range(1,145):
     main_url_opener = urllib2.Request(main_url, None, headers)
     main_url_response = urllib2.urlopen(main_url_opener).read()
 
-    main_url_soup = BeautifulSoup(main_url_response)
+    main_url_soup = BeautifulSoup(main_url_response,'html.parser')
 
 
     for comiclink in main_url_soup.find_all('img'):
