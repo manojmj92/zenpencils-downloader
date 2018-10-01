@@ -1,11 +1,9 @@
-python script to download all comics from www.zenpencils.com for offline reading
+# ZenPencil-Downloader
+Python script to download all comics from [zenpencils](https://zenpencils.com/) for offline reading.
 
-Dependencies:
-
+## Dependencies
 BeautifulSoup 4
+Python 2.7
 
-Works with Python 2.7.X (only)
-
-Usage:
-
-Just run the script. The comics will be downloaded to the folder named "ZenComics"
+## Usage:
+    python zenpencils.py
